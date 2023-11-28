@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: #f0ceff;
+  margin: 0;
+ }
+ 
+ #titleGroup {
+  margin: 0;
+  color: #9300ff;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px; /* Adjust the font size as needed */
+ }
+ 
+ .sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px; /* Adjust the width as needed */
+  background-color: #ca8dfd;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  padding-top: 60px;
+  border-right: 2px solid #f0ceff;
+ }
+ 
+ .sidebar nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+ }
+ 
+ .sidebarLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(255, 242, 217);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding: 15px 0;
+  font-size: 15px;
+  transition: background-color 0.3s ease; /* Add transition effect */
+ }
+ 
+ .sidebarLink:hover {
+  background-color: rgba(255, 242, 217, 0.1); /* Add hover effect */
+ }
+ 
+ .icon {
+  color: rgb(255, 242, 217);
+  margin-bottom: 4px;
+  font-size: 22px;
+ }
+ 
+ .mainContent {
+  margin-left: 200px; /* Adjust this value to match the sidebar width */
+  padding-top: 60px;
+ }
+ 
+ header {
+  background-color: #ca8dfd;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 2px solid #ca8dfd;
+ }
+ 
+ .footerPlaceholder {
+  height: 80px; /* Adjust this height to match the footer */
+ }
+ 
+ /* Rest of your existing styles */
+ /* ... */

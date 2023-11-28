@@ -1,0 +1,51 @@
+/* .containerDev {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin-top: 15px;
+} */
+
+#dev {
+    text-align: center; 
+    font-size: 55px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(0, 204, 255);
+    font-family: "Cambria";
+    text-align: center;
+}
+
+
+#nama {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#nim {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+#jurusan {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+#github {
+    color: white;
+    font-size: 22px;
+    font-weight:600;
+    font-family: 'Courier New';
+    text-align: center;
+}

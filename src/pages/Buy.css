@@ -1,0 +1,27 @@
+#pageTitle {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: #b042ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#toDetails {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: #b042ff;
+    width: 60%;
+    padding: 10px 0px 10px 0px;
+    font-size: 25px;
+    border-radius: 20px;
+    color: white;
+    border-style: double;
+    border-width: 5px;
+    border-color: #b042ff;
+    cursor: none;
+    animation: detailbutton 3s ease infinite;
+}
+

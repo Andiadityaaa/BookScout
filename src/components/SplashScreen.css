@@ -1,0 +1,19 @@
+/* SplashScreen.css */
+
+.splash-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff; /* Set background color as needed */
+}
+
+.logo {
+  width: 100%; /* Cover the entire width of the splash screen */
+  height: 100%; /* Cover the entire height of the splash screen */
+  object-fit: contain; /* Maintain aspect ratio of the logo */
+}

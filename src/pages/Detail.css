@@ -1,0 +1,62 @@
+.containerDetailBuku {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin-top: 15px;
+    background-color: #b042ff;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(77, 16, 71);
+}
+
+.containerDetailStringBuku {
+    background-color: #9300ff;
+    margin-bottom: 5px;
+    padding: 1px 5px 7px 5px;
+    border-radius: 20px;
+    border-style: double;
+    border-color: rgb(#b042ff);
+    border-width: 5px;
+}
+
+#detailJudulBuku {
+    font-weight: bolder;
+    margin-bottom: 15px;
+    font-size: 27px;
+    color: rgb(51, 46, 38);
+}
+
+.detailSampulBuku {
+    object-fit: cover;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(97, 91, 79);
+    margin-bottom: 10px;
+}
+
+#detailPenulis {
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: rgb(255, 242, 217);
+}
+
+#detailPenerbit {
+    font-size: 17px;
+    color: rgb(255, 243, 220);
+}
+
+#detailKetDeskripsi {
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: rgb(255, 242, 217);
+}
+
+#detailDeskripsiBuku {
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: rgb(255, 242, 217);
+}

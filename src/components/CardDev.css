@@ -1,0 +1,107 @@
+.containerDev {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.profilepic {
+    object-fit: cover;
+    width: 170x;
+    height: 170px;
+    border-radius: 360px;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+}
+
+.containerDataDev {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: #c175ff;
+    border-radius: 13px;
+    border-style: double;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+}
+
+.containerNama {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    background-color: #c175ff;
+    border-radius: 13px;
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+}
+
+#nama {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#nim {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#jurusan {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.containerGithub {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    background-color: #b042ff;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #b042ff;
+    padding: 10px;
+}
+
+.containerGithub:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.logoGithub {
+    display: flex;
+    align-items: center;
+    background-color: #b042ff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left-style: double;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-color: #c175ff;
+    padding: 0px 7px 0px 20px;
+}
+
+.kontakGithub {
+    display: flex;
+    align-items: center;
+    background-color: #b042ff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-right-style: double;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-color: #c175ff;
+    padding: 0px 20px 0px 0px;
+}
+
+#github {
+    align-self: center;
+}
